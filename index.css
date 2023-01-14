@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap);
+
+a:hover{
+    color: #000000;
+}
+
+html, body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #ecede5;
+    font-family: Poppins, sans serif, times new roman;
+ 
+      }
+
+.column {
+ float: left;
+width: 23%;
+padding: 0 5px;
+      }
+      
+.row {
+    margin: 0 200px;
+padding-bottom: 100px;
+padding-top: 100px;
+}
+    
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  @media screen and (max-width: 550px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: rgba(44, 99, 38, 0.547);
+    color: white; }
+    
+    .fa {font-size:50px;}
+
+.nav {
+display: inline;
+}
+
+h1 {
+font-size: 60px;
+color: rgb(255, 255, 255);
+font-style: bold;
+}
+
+.header {
+    background: #eaeadd;
+    background-image: url("./images/Index\ header.png");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    border-bottom: 2px solid #ecede5;
+    padding: 10px;
+
+  }
+
+.h2 {
+    font-size: 25px;
+    font-style: italic;
+    color: #3d3c38;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    border-width: 0px;
+    padding-left: 80px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom:50px ;
+    }
+
+.h3 {
+display: flex;
+justify-content: center;
+gap: 3rem;
+flex-wrap: wrap;
+border: 4px dotted white;
+padding: 10px;
+text-align: center;
+font-style: italic;
+background-color: #d8d8d0;
+
+}
+
+
+.img {
+opacity: 0.5;
+width:  300px;
+height: 300px;
+margin: 0px 20px 40px 10px;
+padding-top: 20px;
+padding-bottom: 100px;
+}
+
+.img:hover {
+opacity: 1;
+}
+
+.img1 {
+opacity: 0.5;
+width:  300px;
+height: 300px;
+margin: 0px 20px 40px 10px;
+padding-top: 100px;
+padding-bottom: 200px;
+}
+
+.img1:hover {
+    opacity: 1;
+}
+.footer {
+background-color: #d8d8d0;
+color: #000000;
+padding-top: 5px;
+text-align: center;
+}
+
