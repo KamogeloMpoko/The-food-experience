@@ -1,0 +1,166 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="preloader.css">
+<link rel="stylesheet" href="./index.css">
+<title> The Food Experience </title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" >
+<style>
+
+
+body {
+  font-family:Poppins, sans serif, times new roman;
+}
+
+  ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      
+      li {
+        float: right;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(3, 4, 2);
+        text-align: none;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: rgb(243, 255, 243);
+      }
+</style>
+</head>
+<header class="header">  
+<ul>  
+<li><a href="https://www.instagram.com/codefirstgirls/">Instagram</a></li>
+<li><a href="https://www.facebook.com/codefirstgirls">Facebook</a></li>
+<li><a href="https://twitter.com/CodeFirstGirls">Twitter</a></li>
+</ul> 
+  <center>
+    <h1> THE FOOD EXPERIENCE </h1>
+</center>
+<h2>We are honoured to launch our new restaurant The Food Experience, we have selected three different cuisines for you to choose from and enjoy!</h2>
+</header>
+<body class="body">
+<center>
+  <p></p>
+  <h2 class="h2">Choose from our Delicious Italian, Spanish or Portuguese dishes that will for sure leave you wanting more </h2> <br>
+<a href="./italy.html">
+<img src="images/parmigiana.jpg" class="img" alt="Chorizo Bake" width="250"> </a>
+<a href="./spain.html">
+<img src="images/Tortilla.jpg" class="img" alt="=Uglai" width="250"> </a> 
+<a href="./Portugal.html">
+  <img src="images/bacalhau.jpg" class="img" alt="=Uglai" width="250"> </a> 
+</center>
+<p></p>
+<h2 class="h3">Book a table now to enjoy your Mediterranean Experience</h2>
+<center>
+  <a href="./italy.html">
+<img src="images/cannoli.jpg" class="img1" alt="Chorizo Bake" width="250"> </a>
+<a href="./spain.html">
+  <img src="images/Batatas.jpg" class="img1" alt="=Batatas" width="250"> </a> 
+  <a href="./Portugal.html">
+    <img src="images/pastel.jpg" class="img1" alt="=Uglai" width="250"> </a> 
+</center> 
+<p></p>
+
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+<footer class="footer">
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-user"></i></p>
+      <h3>10</h3>
+      <p>Best Chefs</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-check"></i></p>
+      <h3>9.5/10</h3>
+      <p>Satisfaction Rate</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-smile-o"></i></p>
+      <h3>100+</h3>
+      <p>Happy Clients</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-coffee"></i></p>
+      <h3>10+</h3>
+      <p>New Projects Pending</p>
+    </div>
+  </div>
+</div> 
+<p></p>
+
+<center>
+<b>Contact</b> <br>
+123 456 7890<p></p>
+<b>Email</b> <br>
+thefoodexperience@gmail.com<p></p>
+<b>Opening Hours</b><br>
+Monday-Friday 12PM-9PM<br>
+Saturday-Sunday 1PM-11PM<p></p>
+</center>
+<h4>Alternatively, you can send us a message and we'll be in touch</h4>
+<div class="container">
+    <form action="action_page.php">
+
+        <label for="fname">First Name</label><br>
+        <input type="text" id="fname" name="firstname" placeholder="First name..."><p></p>
+
+        <label for="lname">Last Name</label><br>
+        <input type="text" id="lname" name="lastname" placeholder="Last name..."><p></p>
+
+        <label for="About">What would you like to get in touch with us about?</label><br>
+        <select id="about" name="about"><br>
+            <option value="order">About an order</option><br>
+            <option value="complaint">To complain</option><br>
+            <option value="other">Other</option>
+        </select><p></p>
+
+        <label for="subject">Subject</label><br>
+        <textarea id="subject" name="subject" placeholder="Write something..."></textarea><br>
+          <button type="button" onclick="alert('Thank you for getting in touch!')">Submit!</button>
+    </form> <p></p>
+</div>
+<a href="./FAQ.html">FAQ</a>
+<a href="./About Us.html">ABOUT US</a>
+</footer>
+
+<!-- loader -->
+<script>
+  var loader = document.getElementById("preloader");
+  window.addEventListener("load",function(){
+    loader.style.display = "none";
+  })
+</script>
+
+
+</body>
+</html>
